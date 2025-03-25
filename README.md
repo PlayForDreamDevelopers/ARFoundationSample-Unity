@@ -40,6 +40,7 @@ All sample scenes can be found in the `Assets/ARFoundationSample` folder. For de
 A scene demonstrating camera functionalities, including **Video See-Through (VST)** support.
 
 #### Plane Detection
+![2025 03 25_140432388](https://github.com/user-attachments/assets/f7a34daa-3629-491f-95ee-6edb1fdab5dc)
 
 Detects and visualizes planes in the environment using ARFoundation's plane tracking system.
 
@@ -51,6 +52,7 @@ This example shows how to create anchors at controller positions, and how to sav
 > **Anchor saving/loading** is only available in ARFoundation 6.0+ APIs. The 2022 branch uses pre-6.0 APIs. To use this feature, switch to the **main branch** and open the project with **Unity 6** or newer.
 
 #### Mesh
+![2025 03 25_140519045](https://github.com/user-attachments/assets/1f106748-1310-41e9-afbc-a7c9618562b4)
 
 Demonstrates real-time 3D mesh generation by scanning and reconstructing real-world environments.
 
