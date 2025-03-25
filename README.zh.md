@@ -1,62 +1,64 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 
-<!--
-请先阅读此文档！！！！
-将以下占位符替换为实际值：
-    - {{PROJECT_REPO_URL}}: 项目仓库的URL
-    - {{DocumentationURL}}: 项目文档的URL，尽可能使用docfx生成的GitHub Pages
-    - {{BriefDescription}}: 项目简介
-    - {SampleURL}: 示例项目的URL，对于包项目，应为示例仓库的URL。如果包项目有多个示例，请链接到“关于项目”部分的“示例”标题。
-    - {BugIssueURL}: 报告错误问题的URL
-      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=bug_report.yml
-    - {FeatureIssueURL}: 请求功能问题的URL
-      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=feature_request.yml
-    - {DocumentationIssueURL}: 文档问题的URL
-      - 例如：https://github.com/PlayForDreamDevelopers/unity-template/issues/new?template=documentation_update.yml
--->
-
 <br />
 <div align="center">
     <a href="{{PROJECT_REPO_URL}}">
         <img src="https://www.pfdm.cn/en/static/img/logo.2b1b07e.png" alt="Logo" width="20%">
     </a>
-    <h1 align="center">设备 Unity 示例</h1>
+    <h1 align="center">ARFoundation Unity Sample</h1>
     <p align="center">
-        {{BriefDescription}}
+        ARFoundation 在 PFDM 环境下的 Unity 示例
         <br />
-        <a href="{{DocumentationURL}}"><strong>查看文档 »</strong></a>
+        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/blob/main/README.zh.md"><strong>查看文档 »</strong></a>
         <br />
         <br />
-        <a href="#samples">查看示例</a>
+        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity#示例">查看示例"</a>
         &middot;
-        <a href="{{BugIssueURL}}">报告错误</a>
+        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/issues/new?template=bug_report.yml">报告错误</a>
         &middot;
-        <a href="{{FeatureIssueURL}}">请求功能</a>
+        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/issues/new?template=feature_request.yml">请求功能</a>
         &middot;
-        <a href="{{DocumentationIssueURL}}">改进文档</a>
+        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/issues/new?template=documentation_update.yml">改进文档</a>
     </p>
 
 </div>
 
-<!-- 如果需要，请在此处添加提示 -->
+> [!tip]
+>
+> 2022 分支为 ARFoundation 5.1.6 版本 API，项目使用 Unity 版本为 Unity 2022.3.52f1
+> 
+> main 分支为 ARFoundation 6.0 版本 API ,项目使用 Unity 版本为 Unity 6000.0.40f1
 
 ## 关于项目
 
-<!-- 项目描述
-    这个项目的功能是什么，它的用途是什么，等等。
-
-    对于示例项目，请在此处描述每个示例并附上截图或GIF。
-    对于包项目，请描述包的功能，并链接到示例项目。
-
-    -->
+ARFoundationSample-Unity 是使用 ARFoundation 开发的一组示例场景，示例场景主要包括锚点，网格识别，摄像机等功能。开发者可以通过这些示例场景快速体验 PFDM 设备提供的能力
 
 ### 示例
 
-<!-- 链接到第一个示例项目 -->
-<!-- 链接到第二个示例项目 -->
+此项目中的所有示例场景都可以在 `Assets/Scenes` 文件夹中找到，要了解有关每个场景中使用的 ARFoundation 组件的更多信息，请参阅 [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
+
+#### Camera
+
+演示相机功能的场景，提供 VST 功能
+
+#### Plane Detection
+
+平面检测功能，用于绘制当前环境中所识别到的平面信息
+
+#### Anchors
+
+此示例演示如何在手柄位置处创建锚点，以及如何保存/删除/加载锚点
+> [!tip]
+>
+> 保存/加载锚点仅在 ARFoundation6.0 以上版本 API 中使用，2022 分支为 6.0 以下版本接口。如需参考保存/加载锚点功能需要使用 main 分支并使用 Unity6 以上版本打开工程。
 
 ## 要求
 
-<!-- 项目要求：
-    Unity版本，依赖的 Unity Package 等，如果 Unity Package 有 Mirror 仓库的话，需要链接到该仓库的地址。
--->
+
+- 2022 分支要求 Unity 2022.3.52f1 或更新版本
+- main 分支要求 Unity6 以上或更新版本。
+- Unity 包：
+  -  [YVR Core](https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror)
+    -   [YVR Utilities](https://github.com/PlayForDreamDevelopers/com.yvr.Utilities-mirror)
+    -   [YVR Interaction](https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror)
+
