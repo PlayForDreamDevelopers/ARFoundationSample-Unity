@@ -50,6 +50,10 @@ This example shows how to create anchors at controller positions, and how to sav
 >
 > **Anchor saving/loading** is only available in ARFoundation 6.0+ APIs. The 2022 branch uses pre-6.0 APIs. To use this feature, switch to the **main branch** and open the project with **Unity 6** or newer.
 
+#### Mesh
+
+Demonstrates real-time 3D mesh generation by scanning and reconstructing real-world environments.
+
 ## Requirements
 
 - **2022 branch**: Unity 2022.3.52f1 or newer.

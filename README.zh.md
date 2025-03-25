@@ -52,6 +52,10 @@ ARFoundationSample-Unity 是使用 ARFoundation 开发的一组示例场景，�
 >
 > 保存/加载锚点仅在 ARFoundation6.0 以上版本 API 中使用，2022 分支为 6.0 以下版本接口。如需参考保存/加载锚点功能需要使用 main 分支并使用 Unity6 以上版本打开工程。
 
+#### Mesh
+
+演示通过真实世界扫描数据构建网格信息
+
 ## 要求
 
 

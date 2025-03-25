@@ -4,7 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sample-Sample/Camera/Camera.unity
+    guid: db01d5f84592b904db8cda818c66e543
+  - enabled: 1
+    path: Assets/Sample-Sample/Plane/Plane.unity
+    guid: f96a6efc8be60e9488a488c089a99c1c
+  - enabled: 1
+    path: Assets/Sample-Sample/Anchor/Anchor.unity
+    guid: 705c8bdb7b956ee48bb773ddb954287b
+  - enabled: 1
+    path: Assets/Sample-Sample/Mesh/Mesh.unity
+    guid: 5912ea23fb9dda240a82f16d7f1511c6
   m_configObjects:
     YVR.Core.XR.YVRXRSettings: {fileID: 11400000, guid: afbc465c9cce0994db4d7a584db140dd, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2b1b8d97360a22146a93d10f3503f207, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 89c1bb3bdc193a94386a459331a0b237, type: 2}
