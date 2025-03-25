@@ -33,7 +33,7 @@ ARFoundationSample-Unity is a collection of sample scenes developed with ARFound
 
 ### Examples
 
-All sample scenes can be found in the `Assets/Scenes` folder. For detailed information about ARFoundation components used in each scene, refer to the [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html).
+All sample scenes can be found in the `Assets/ARFoundationSample` folder. For detailed information about ARFoundation components used in each scene, refer to the [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html).
 
 #### Camera
 

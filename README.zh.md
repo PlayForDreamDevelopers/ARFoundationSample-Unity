@@ -35,7 +35,7 @@ ARFoundationSample-Unity 是使用 ARFoundation 开发的一组示例场景，�
 
 ### 示例
 
-此项目中的所有示例场景都可以在 `Assets/Scenes` 文件夹中找到，要了解有关每个场景中使用的 ARFoundation 组件的更多信息，请参阅 [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
+此项目中的所有示例场景都可以在 `Assets/ARFoundationSample` 文件夹中找到，要了解有关每个场景中使用的 ARFoundation 组件的更多信息，请参阅 [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
 
 #### Camera
 
