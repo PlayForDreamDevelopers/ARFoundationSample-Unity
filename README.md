@@ -9,7 +9,7 @@
     <p align="center">
         Unity sample projects for ARFoundation on PFDM devices
         <br />
-        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/blob/main/README.md"><strong>Explore Documentation »</strong></a>
+        <a href="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html"><strong>Explore Documentation »</strong></a>
         <br />
         <br />
         <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity#examples">View Examples</a>

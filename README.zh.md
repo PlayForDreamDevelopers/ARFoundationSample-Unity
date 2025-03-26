@@ -9,7 +9,7 @@
     <p align="center">
         ARFoundation 在 PFDM 环境下的 Unity 示例
         <br />
-        <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity/blob/main/README.zh.md"><strong>查看文档 »</strong></a>
+        <a href="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html"><strong>查看文档 »</strong></a>
         <br />
         <br />
         <a href="https://github.com/PlayForDreamDevelopers/ARFoundationSample-Unity#示例">查看示例"</a>
