@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5743671831223395494
+  m_GuidHigh: 13988088555110366615
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4780164479408250727
+      m_GuidHigh: 12440917509411088057
+    m_SerializedTextureGuid:
+      m_GuidLow: 13912761991473045523
+      m_GuidHigh: 4518111287807635001
+    m_Size: {x: 0.594, y: 0.8314603}
+    m_SpecifySize: 1
+    m_Name: jetPose
+    m_Texture: {fileID: 2800000, guid: 7a4ea0130f51c11439ee743d478eb33e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5399616459675654204
+      m_GuidHigh: 8806898294409033644
+    m_SerializedTextureGuid:
+      m_GuidLow: 3946310825496333027
+      m_GuidHigh: 5584916606310911082
+    m_Size: {x: 0.21, y: 0.2970484}
+    m_SpecifySize: 1
+    m_Name: whatif
+    m_Texture: {fileID: 2800000, guid: 8efccae31cc936c46a8c5733109c814d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5039215525848274532
+      m_GuidHigh: 16944477093544930689
+    m_SerializedTextureGuid:
+      m_GuidLow: 3649053395742473370
+      m_GuidHigh: 6051222818862105241
+    m_Size: {x: 0.841, y: 1.1889474}
+    m_SpecifySize: 1
+    m_Name: 0001
+    m_Texture: {fileID: 2800000, guid: dba9bc9a0aba32a4998203cf1743fa53, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5028138838685644430
+      m_GuidHigh: 9167307075383054739
+    m_SerializedTextureGuid:
+      m_GuidLow: 17668821924368217263
+      m_GuidHigh: 1869984059470965915
+    m_Size: {x: 0.841, y: 1.1772022}
+    m_SpecifySize: 1
+    m_Name: drone
+    m_Texture: {fileID: 2800000, guid: 4199f4af43edf5349bec68309884f319, type: 3}
